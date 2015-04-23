@@ -1,0 +1,26 @@
+﻿<!doctype html>
+<html lang="fr" ng-app="weatherApp">
+<head>
+    <meta charset="utf-8">
+    <base href="/PocAngular">
+    <link rel="stylesheet" href="PocAngular/Content/bootstrap.css">
+    <link rel="stylesheet" href="PocAngular/Content/Site.css">
+    <script src="PocAngular/Scripts/bower_components/jquery.min.js"></script>
+    <script src="PocAngular/Scripts/bower_components/angular.min.js"></script>
+    <script src="PocAngular/Scripts/controllers/WeatherController.js"></script>
+</head>
+<body ng-controller="WeatherController">
+    <div class="container">
+        <div class="row">
+            {{test}}
+            <div class="col-md-6">
+                {{weather.main.temp}}
+            </div>
+            <div class="col-md-6">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
